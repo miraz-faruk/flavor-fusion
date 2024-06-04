@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <header className="container mx-auto mt-12">
-            <nav>
+            <nav className="mb-12">
                 <div className="navbar bg-base-100">
                     <div className="navbar-start">
                         <div className="dropdown">
@@ -37,7 +37,19 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-
+            <banner>
+                <div className="relative flex items-center justify-center">
+                    <img className="w-full max-h-screen rounded-3xl brightness-75" src="/src/images/image-44.png" alt="" />
+                    <div className="absolute text-white text-center px-44">
+                        <h1 className="text-[52px] font-bold mb-6">Discover an exceptional cooking class tailored for you!</h1>
+                        <p className="text-lg mb-10">Experience delicious western cuisine at Flavor Fusion. Browse our menu and make a reservation to savor a delightful meal in our restaurant. We use only the freshest ingredients to create dishes that will tantalize your taste buds. Flavor Fusion - Where unforgettable flavors meet exceptional service.</p>
+                        <div>
+                            <button className="bg-[#0BE58A] border-none rounded-full text-xl font-semibold px-8 py-5 text-black mr-8">Explore Now</button>
+                            <button className="border rounded-full text-xl font-semibold px-8 py-5">Our Feedback</button>
+                        </div>
+                    </div>
+                </div>
+            </banner>
         </header>
     );
 };
