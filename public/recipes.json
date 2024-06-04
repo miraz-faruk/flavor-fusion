@@ -1,0 +1,121 @@
+[
+    {
+        "recipe_image": "/images/recipes/chicken_basil.jpg",
+        "recipe_id": 1,
+        "recipe_name": "Stir-Fried Chicken with Basil",
+        "short_description": "A quick and flavorful stir-fry with tender chicken, fragrant basil, and savory soy sauce.",
+        "ingredients": [
+            "550 g boneless, skinless chicken breasts, cut into strips",
+            "120 ml low-sodium soy sauce",
+            "2 tablespoons vegetable oil",
+            "2 cloves garlic, minced",
+            "1 red bell pepper, sliced",
+            "200 g fresh basil leaves",
+            "400 g sliced mushrooms",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": "30 minutes",
+        "calories": 320
+    },
+    {
+        "recipe_image": "/images/recipes/pasta_primavera.jpg",
+        "recipe_id": 2,
+        "recipe_name": "Pasta Primavera",
+        "short_description": "A colorful and vibrant pasta dish filled with fresh spring vegetables in a light cream sauce.",
+        "ingredients": [
+            "300 g dried pasta (e.g., penne, farfalle)",
+            "2 tablespoons olive oil",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "2 red bell peppers, sliced",
+            "1 zucchini, sliced",
+            "1 broccoli floret, chopped",
+            "250 g cherry tomatoes, halved",
+            "200 ml heavy cream",
+            "Parmesan cheese, grated (optional)",
+            "Fresh basil leaves, chopped (optional)",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": "45 minutes",
+        "calories": 450
+    },
+    {
+        "recipe_image": "/images/recipes/pizza_margherita.jpg",
+        "recipe_id": 3,
+        "short_description": "The classic Italian pizza Margherita with a simple yet delicious combination of tomato sauce, mozzarella cheese, and fresh basil.",
+        "ingredients": [
+            "Pizza dough (store-bought or homemade)",
+            "Pizza sauce",
+            "Mozzarella cheese, shredded",
+            "Fresh basil leaves",
+            "Olive oil",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": "20 minutes (plus rising time for dough)",
+        "calories": 350
+    },
+    {
+        "recipe_image": "/images/recipes/chicken_curry.jpg",
+        "recipe_id": 4,
+        "short_description": "Aromatic and flavorful chicken curry with tender chicken pieces in a creamy coconut milk sauce.",
+        "ingredients": [
+            "800 g bone-in, skinless chicken thighs",
+            "1 tablespoon vegetable oil",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "1 tablespoon curry powder",
+            "1 teaspoon ground ginger",
+            "1/2 teaspoon turmeric",
+            "400 ml coconut milk",
+            "1 red bell pepper, sliced",
+            "200 g green beans, trimmed and chopped",
+            "Cilantro leaves, chopped (optional)",
+            "Cooked rice, for serving"
+        ],
+        "preparing_time": "45 minutes",
+        "calories": 400
+    },
+    {
+        "recipe_image": "/images/recipes/chocolate_chip_cookies.jpg",
+        "recipe_id": 5,
+        "short_description": "Soft and chewy chocolate chip cookies, a classic and delicious treat.",
+        "ingredients": [
+            "1 cup (2 sticks) unsalted butter, softened",
+            "1 cup granulated sugar",
+            "1 cup packed light brown sugar",
+            "2 large eggs",
+            "2 teaspoons pure vanilla extract",
+            "2 ¾ cups all-purpose flour",
+            "1 teaspoon baking soda",
+            "1 teaspoon salt",
+            "2 cups semisweet chocolate chips"
+        ],
+        "preparing_time": "20 minutes",
+        "calories": 200
+    },
+    {
+        "recipe_image": "/images/recipes/thai_curry.jpg",
+        "recipe_id": 6,
+        "recipe_name": "Thai Green Curry with Vegetables",
+        "short_description": "A fragrant and flavorful Thai green curry loaded with colorful vegetables and creamy coconut milk.",
+        "ingredients": [
+            "400 ml coconut milk",
+            "1 tablespoon green curry paste",
+            "1 tablespoon vegetable oil",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "1 red bell pepper, sliced",
+            "1 yellow bell pepper, sliced",
+            "1 zucchini, sliced",
+            "200 g broccoli florets",
+            "1 can (400 ml) bamboo shoots, drained (optional)",
+            "1 cup cherry tomatoes",
+            "1 tablespoon soy sauce",
+            "1 tablespoon lime juice",
+            "Fresh cilantro leaves, chopped (optional)",
+            "Cooked rice, for serving"
+        ],
+        "preparing_time": "30 minutes",
+        "calories": 350
+    }
+]
