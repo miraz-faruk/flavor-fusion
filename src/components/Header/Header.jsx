@@ -44,8 +44,8 @@ const Header = () => {
                         <h1 className="text-[52px] font-bold mb-1 lg:mb-6">Discover an exceptional cuisine tailored for you!</h1>
                         <p className="text-base lg:text-lg mb-1 lg:mb-10">Experience delicious western cuisine at Flavor Fusion. We use only the freshest ingredients to create dishes that will tantalize your taste buds.</p>
                         <div>
-                            <button className="bg-[#0BE58A] border-none rounded-full text-xl font-semibold px-8 py-5 text-black mr-8">Explore Now</button>
-                            <button className="border rounded-full text-xl font-semibold px-8 py-5">Our Feedback</button>
+                            <button className="bg-[#0BE58A] border-none rounded-full text-xl font-semibold px-8 py-5 text-black mr-8 hover:bg-slate-100">Explore Now</button>
+                            <button className="border rounded-full text-xl font-semibold px-8 py-5 hover:bg-[#0BE58A]">Our Feedback</button>
                         </div>
                     </div>
                 </div>
