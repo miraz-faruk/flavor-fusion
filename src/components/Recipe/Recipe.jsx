@@ -1,7 +1,7 @@
-import PropTypes from 'prop-types';
-import './Recipe.css';
+import PropTypes from 'prop-types'
+import './Recipe.css'
 
-const Recipe = ({ recipe }) => {
+const Recipe = ({ recipe, handleAddToCooks }) => {
     const { recipe_image, recipe_name, short_description, ingredients, preparing_time, calories } = recipe;
     return (
         <div className="card border p-6">
@@ -30,7 +30,7 @@ const Recipe = ({ recipe }) => {
                     </div>
                 </div>
                 <div className="card-actions">
-                    <button className="bg-[#0BE58A] border-none rounded-full text-lg font-medium px-6 py-3 text-black mr-8 hover:bg-slate-100">Want to Cook</button>
+                    <button onClick={() => handleAddToCooks(recipe)} className="bg-[#0BE58A] border-none rounded-full text-lg font-medium px-6 py-3 text-black mr-8 hover:bg-slate-100">Want to Cook</button>
                 </div>
             </div>
         </div>
@@ -38,6 +38,7 @@ const Recipe = ({ recipe }) => {
 };
 
 Recipe.propTypes = {
-    recipe: PropTypes.object.isRequired
+    recipe: PropTypes.object.isRequired,
+    handleAddToCooks: PropTypes.func
 }
 export default Recipe;
