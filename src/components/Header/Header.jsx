@@ -39,7 +39,7 @@ const Header = () => {
             </nav>
             <banner>
                 <div className="relative flex items-center justify-center">
-                    <img className="w-full max-h-screen rounded-3xl brightness-75" src="/src/images/image-44.png" alt="" />
+                    <img className="w-full max-h-screen rounded-3xl brightness-75" src="https://i.ibb.co/567nLbX/image-44.png" alt="" />
                     <div className="absolute text-white text-center px-9 lg:px-44">
                         <h1 className="text-[52px] font-bold mb-1 lg:mb-6">Discover an exceptional cuisine tailored for you!</h1>
                         <p className="text-base lg:text-lg mb-1 lg:mb-10">Experience delicious western cuisine at Flavor Fusion. We use only the freshest ingredients to create dishes that will tantalize your taste buds.</p>
